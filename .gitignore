@@ -23,3 +23,9 @@ gradle-app.setting
 # Visual Paradigm Project generated files
 *.bak*
 *.vux
+
+# macOS
+.DS_Store
+
+# VPP temp files
+*.vpp-journal
