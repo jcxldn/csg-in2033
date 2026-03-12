@@ -19,14 +19,3 @@ tasks.withType<Jar> {
         attributes["Main-Class"] = application.mainClass
     }
 }
-
-sourceSets {
-    main {
-        java {
-            setSrcDirs(listOf("src"))
-        }
-        resources {
-            setSrcDirs(listOf("data"))
-        }
-    }
-}

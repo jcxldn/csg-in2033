@@ -4,4 +4,4 @@ plugins {
 }
 
 rootProject.name = "IPOS-PU"
-include("src:main:java:gui")
+include("app:gui")
