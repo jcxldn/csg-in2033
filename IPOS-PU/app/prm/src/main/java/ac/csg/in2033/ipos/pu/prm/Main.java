@@ -1,4 +1,4 @@
-package ac.csg.in2033.ipos.pu.gui;
+package ac.csg.in2033.ipos.pu.prm;
 
 public class Main {
     public static void main(String[] args) {

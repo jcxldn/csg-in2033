@@ -5,3 +5,5 @@ plugins {
 
 rootProject.name = "IPOS-PU"
 include("app:gui")
+include("app:prm")
+include("app:rpt")

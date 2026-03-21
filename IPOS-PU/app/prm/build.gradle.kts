@@ -11,7 +11,7 @@ javafx {
 
 application {
     // Define the main class for the application.
-    mainClass = "ac.csg.in2033.ipos.pu.gui.Main"
+    mainClass = "ac.csg.in2033.ipos.pu.prm.Main"
 }
 
 tasks.withType<Jar> {

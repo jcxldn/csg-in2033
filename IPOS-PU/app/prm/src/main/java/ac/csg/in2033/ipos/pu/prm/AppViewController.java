@@ -1,4 +1,4 @@
-package ac.csg.in2033.ipos.pu.gui;
+package ac.csg.in2033.ipos.pu.prm;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
