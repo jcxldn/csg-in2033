@@ -104,6 +104,10 @@ public class Cart {
      * @throws IllegalArgumentException if the product isn't in the cart
      */
     public void updateQuantity(String productId, int newQuantity) {
+        if (newQuantity <= 0) {
+            removeItem(productId);
+            return;
+        }
         for (CartItem item : items) {
             if (item.getProductId().equals(productId)) {
                 item.setQuantity(newQuantity);
