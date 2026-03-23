@@ -9,3 +9,6 @@ build
 
 # Ignore log output directory
 logs
+
+# Ignore Intellij workspace-specific direcotry
+.idea
