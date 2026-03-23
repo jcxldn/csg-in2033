@@ -22,8 +22,9 @@ public class Cart {
         private final String productName;
         private final double unitPrice;
         private int quantity;
+        private final boolean isMedicalGood;
 
-        public CartItem(String productId, String productName, double unitPrice, int quantity) {
+        public CartItem(String productId, String productName, double unitPrice, int quantity, boolean isMedicalGood) {
             if (productId == null || productId.isBlank()) {
                 throw new IllegalArgumentException("Product ID cannot be empty.");
             }
@@ -38,6 +39,7 @@ public class Cart {
             this.productName = productName;
             this.unitPrice   = unitPrice;
             this.quantity    = quantity;
+            this.isMedicalGood = isMedicalGood;
         }
 
         public String getProductId()   { return productId;   }
@@ -82,7 +84,7 @@ public class Cart {
      * @param quantity    how many units to add (must be ≥ 1)
      * @throws IllegalArgumentException if quantity < 1 or unitPrice < 0
      */
-    public void addItem(String productId, String productName, double unitPrice, int quantity) {
+    public void addItem(String productId, String productName, double unitPrice, int quantity, boolean isMedicalGood) {
         // Look for this product already sitting in the cart
         for (CartItem existing : items) {
             if (existing.getProductId().equals(productId)) {
@@ -92,7 +94,7 @@ public class Cart {
         }
 
         // Not found — add it as a new line
-        items.add(new CartItem(productId, productName, unitPrice, quantity));
+        items.add(new CartItem(productId, productName, unitPrice, quantity, isMedicalGood));
     }
 
     /**
