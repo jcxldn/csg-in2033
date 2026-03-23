@@ -2,6 +2,7 @@ package ac.csg.in2033.ipos.pu.gui;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
+import javafx.scene.control.Hyperlink;
 import javafx.scene.control.TextField;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -19,7 +20,10 @@ public class LoginSceneController extends SceneController {
     private Button loginButton;
 
     @FXML
-    private Button registerButton;
+    private Hyperlink commercialRegisterLink;
+
+    @FXML
+    private Hyperlink nonCommercialRegisterLink;
 
     @FXML
     protected void OnLoginButtonClick() {
@@ -50,6 +54,8 @@ public class LoginSceneController extends SceneController {
         // these will be passed somewhere else
         String username = user.getText();
         String password = pass.getText();
+
+        //
 
         // send user/password text to other system
         // check if user/password are correctly formatted

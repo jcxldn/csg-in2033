@@ -4,44 +4,58 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<GridPane alignment="CENTER" hgap="10" prefHeight="167.0" prefWidth="447.0" vgap="10" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ac.csg.in2033.ipos.pu.gui.LoginSceneController">
+<VBox alignment="CENTER" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ac.csg.in2033.ipos.pu.gui.LoginSceneController">
 
     <padding>
-        <Insets bottom="10" left="25" right="25" top="25" />
+        <Insets top="20" bottom="20" />
     </padding>
 
-    <!-- USERNAME -->
+    <children>
 
-    <Label
-            text="Username:"
-            GridPane.columnIndex="0" GridPane.rowIndex="0" />
+        <!-- DETAILS -->
 
-    <TextField
-            fx:id="user" promptText="Use &quot;username&quot; to login" text="username"
-            GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+        <GridPane alignment="CENTER" hgap="10" prefHeight="150" prefWidth="400" vgap="10">
+
+            <padding>
+                <Insets bottom="20" />
+            </padding>
+
+            <!-- USERNAME -->
+
+            <Label text="Username:" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+
+            <TextField fx:id="user" promptText="Use &quot;username&quot; to login" text="username" GridPane.columnIndex="0" GridPane.rowIndex="1" />
 
 
-    <!-- PASSWORD -->
+            <!-- PASSWORD -->
 
-    <Label text="Password:"
-           GridPane.columnIndex="2" />
+            <Label text="Password:" GridPane.rowIndex="3" />
 
-    <PasswordField
-            fx:id="pass" promptText="Use &quot;password&quot; to login" text="password"
-            GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <PasswordField fx:id="pass" promptText="Use &quot;password&quot; to login" text="password" GridPane.rowIndex="4" />
 
-    <!-- BUTTONS -->
+        </GridPane>
 
-    <ButtonBar prefHeight="40.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="4">
-        <buttons>
-            <!-- LOGIN BUTTON -->
+        <!-- BUTTONS -->
 
-            <Button fx:id="loginButton" alignment="CENTER" defaultButton="true" mnemonicParsing="false" onAction="#OnLoginButtonClick" prefHeight="26.0" prefWidth="86.0" text="Login" />
+        <HBox alignment="CENTER">
 
-            <!-- REGISTER BUTTON -->
+            <padding>
+                <Insets bottom="20" />
+            </padding>
 
-            <Button fx:id="registerButton" alignment="CENTER" defaultButton="true" mnemonicParsing="false" onAction="#OnRegisterButtonClick" prefHeight="26.0" prefWidth="86.0" text="Register" />
-        </buttons>
-    </ButtonBar>
+            <children>
+                <!-- LOGIN BUTTON -->
 
-</GridPane>
+                <Button fx:id="loginButton" alignment="CENTER" defaultButton="true" mnemonicParsing="false" onAction="#OnLoginButtonClick" text="Login" />
+            </children>
+        </HBox>
+
+        <!-- REGISTER LINKS -->
+
+        <!-- NON-COMMERCIAL -->
+        <Hyperlink fx:id="nonCommercialRegisterLink" alignment="CENTER" mnemonicParsing="false" onAction="#OnRegisterButtonClick" text="Looking to register as a customer?" />
+
+        <!-- COMMERCIAL -->
+        <Hyperlink fx:id="commercialRegisterLink" alignment="CENTER" mnemonicParsing="false" onAction="#OnRegisterButtonClick" text="Looking to register as a merchant?" />
+    </children>
+</VBox>
