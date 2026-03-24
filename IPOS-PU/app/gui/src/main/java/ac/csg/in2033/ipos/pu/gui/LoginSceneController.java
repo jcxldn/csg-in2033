@@ -6,6 +6,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Hyperlink;
+import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
@@ -28,6 +29,9 @@ public class LoginSceneController extends SceneController {
 
     @FXML
     private Hyperlink registerLink;
+
+    @FXML
+    public Label notifLabel;
 
     @FXML
     protected void OnLoginButtonClick() {
@@ -57,9 +61,11 @@ public class LoginSceneController extends SceneController {
 
         // these will be passed somewhere else
         String username = email.getText();
-        String password = pass.getText();
+        //String password = pass.getText();
 
-        //
+        // the user is notified if the username is unique to complete the
+        // verification process using their email
+        notifLabel.setText("Please verify your email to complete registration.");
 
         // send user/password text to other system
         // check if user/password are correctly formatted
