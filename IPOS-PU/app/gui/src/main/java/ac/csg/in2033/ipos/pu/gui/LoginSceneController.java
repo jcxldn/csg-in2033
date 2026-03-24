@@ -1,5 +1,6 @@
 package ac.csg.in2033.ipos.pu.gui;
 
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Hyperlink;
@@ -11,7 +12,7 @@ public class LoginSceneController extends SceneController {
     private final static Logger logger = LoggerFactory.getLogger(LoginSceneController.class);
 
     @FXML
-    private TextField user;
+    private TextField email;
 
     @FXML
     private TextField pass;
@@ -20,10 +21,7 @@ public class LoginSceneController extends SceneController {
     private Button loginButton;
 
     @FXML
-    private Hyperlink commercialRegisterLink;
-
-    @FXML
-    private Hyperlink nonCommercialRegisterLink;
+    private Hyperlink registerLink;
 
     @FXML
     protected void OnLoginButtonClick() {
@@ -33,7 +31,7 @@ public class LoginSceneController extends SceneController {
         }
 
         // these will be passed somewhere else
-        String username = user.getText();
+        String username = email.getText();
         String password = pass.getText();
 
         // send user/password text to other system
@@ -45,14 +43,14 @@ public class LoginSceneController extends SceneController {
     }
 
     @FXML
-    protected void OnRegisterButtonClick() {
+    protected void OnNonCommercialRegisterButtonClick(ActionEvent actionEvent) {
         // log button press
         if (logger.isDebugEnabled()) {
             logger.debug("Register button pressed.");
         }
 
         // these will be passed somewhere else
-        String username = user.getText();
+        String username = email.getText();
         String password = pass.getText();
 
         //
@@ -64,4 +62,7 @@ public class LoginSceneController extends SceneController {
         // if commercial, send to IPOS-SA
     }
 
+    @FXML
+    protected void OnCommercialRegisterLinkClick(ActionEvent actionEvent) {
+    }
 }

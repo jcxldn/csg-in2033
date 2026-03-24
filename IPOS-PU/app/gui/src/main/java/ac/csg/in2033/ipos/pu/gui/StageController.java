@@ -43,4 +43,8 @@ public final class StageController {
             //logger.debug("Scene switch attempted from {} to {}", currentScene.toString(), resourcePath.getPath());
         }
     }
+
+    public static Scene getCurrentScene() {
+        return currentScene;
+    }
 }

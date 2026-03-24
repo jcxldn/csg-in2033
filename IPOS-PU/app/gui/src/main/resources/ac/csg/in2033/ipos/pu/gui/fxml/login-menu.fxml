@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<VBox alignment="CENTER" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ac.csg.in2033.ipos.pu.gui.LoginSceneController">
+<VBox alignment="CENTER" prefHeight="200" prefWidth="300" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ac.csg.in2033.ipos.pu.gui.LoginSceneController">
 
     <padding>
         <Insets top="20" bottom="20" />
@@ -12,9 +11,16 @@
 
     <children>
 
+        <HBox alignment="CENTER">
+            <padding>
+                <Insets bottom="20" />
+            </padding>
+            <Label fx:id="desc" text="Customer Login" prefHeight="50" />
+        </HBox>
+
         <!-- DETAILS -->
 
-        <GridPane alignment="CENTER" hgap="10" prefHeight="150" prefWidth="400" vgap="10">
+        <GridPane alignment="CENTER" hgap="10" vgap="10">
 
             <padding>
                 <Insets bottom="20" />
@@ -22,16 +28,16 @@
 
             <!-- USERNAME -->
 
-            <Label text="Username:" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+            <Label text="Email:" GridPane.columnIndex="0" GridPane.rowIndex="0" />
 
-            <TextField fx:id="user" promptText="Use &quot;username&quot; to login" text="username" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+            <TextField fx:id="email" GridPane.columnIndex="0" GridPane.rowIndex="1" />
 
 
             <!-- PASSWORD -->
 
             <Label text="Password:" GridPane.rowIndex="3" />
 
-            <PasswordField fx:id="pass" promptText="Use &quot;password&quot; to login" text="password" GridPane.rowIndex="4" />
+            <PasswordField fx:id="pass" GridPane.rowIndex="4" />
 
         </GridPane>
 
@@ -44,18 +50,21 @@
             </padding>
 
             <children>
+
+                <!-- NON-COMMERCIAL REGISTER BUTTON -->
+
+                <Button fx:id="registerButton" alignment="CENTER" defaultButton="true" mnemonicParsing="false" onAction="#OnNonCommercialRegisterButtonClick" text="Register" />
+
+                <Region HBox.hgrow="SOMETIMES" maxWidth="10" />
+
                 <!-- LOGIN BUTTON -->
 
                 <Button fx:id="loginButton" alignment="CENTER" defaultButton="true" mnemonicParsing="false" onAction="#OnLoginButtonClick" text="Login" />
             </children>
         </HBox>
 
-        <!-- REGISTER LINKS -->
+        <!-- COMMERCIAL REGISTER LINK -->
 
-        <!-- NON-COMMERCIAL -->
-        <Hyperlink fx:id="nonCommercialRegisterLink" alignment="CENTER" mnemonicParsing="false" onAction="#OnRegisterButtonClick" text="Looking to register as a customer?" />
-
-        <!-- COMMERCIAL -->
-        <Hyperlink fx:id="commercialRegisterLink" alignment="CENTER" mnemonicParsing="false" onAction="#OnRegisterButtonClick" text="Looking to register as a merchant?" />
+        <Hyperlink fx:id="registerLink" alignment="CENTER" mnemonicParsing="false" onAction="#OnCommercialRegisterLinkClick" text="Looking to register as a merchant?" />
     </children>
 </VBox>
