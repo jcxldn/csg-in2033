@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8148f834-f186-49fc-8811-247a7f4f1461" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/gui/src/main/java/ac/csg/in2033/ipos/pu/gui/C_RegisterSceneController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/gui/src/main/resources/ac/csg/in2033/ipos/pu/gui/fxml/commercial-register-menu.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/gui/src/main/java/ac/csg/in2033/ipos/pu/gui/C_RegisterSceneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/gui/src/main/java/ac/csg/in2033/ipos/pu/gui/C_RegisterSceneController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/gui/src/main/java/ac/csg/in2033/ipos/pu/gui/LoginSceneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/gui/src/main/java/ac/csg/in2033/ipos/pu/gui/LoginSceneController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/gui/src/main/java/ac/csg/in2033/ipos/pu/gui/RegisterSceneController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/gui/src/main/java/ac/csg/in2033/ipos/pu/gui/StageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/gui/src/main/java/ac/csg/in2033/ipos/pu/gui/StageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/gui/src/main/resources/ac/csg/in2033/ipos/pu/gui/fxml/login-menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/app/gui/src/main/resources/ac/csg/in2033/ipos/pu/gui/fxml/login-menu.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/gui/src/main/resources/ac/csg/in2033/ipos/pu/gui/fxml/register-menu.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/gui/src/main/java/ac/csg/in2033/ipos/pu/gui/SceneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/gui/src/main/java/ac/csg/in2033/ipos/pu/gui/SceneController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

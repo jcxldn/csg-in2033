@@ -4,6 +4,8 @@ import javafx.event.ActionEvent;
 
 public class C_RegisterSceneController extends SceneController {
 
+    LoginSceneController parentController;
+
     public void OnRegisterButtonClick(ActionEvent actionEvent) {
     }
 
@@ -11,5 +13,9 @@ public class C_RegisterSceneController extends SceneController {
     }
 
     public void OnFileChooseButtonClick(ActionEvent actionEvent) {
+    }
+
+    public void setParent(LoginSceneController loginSceneController) {
+        this.parentController = loginSceneController;
     }
 }

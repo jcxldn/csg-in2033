@@ -1,5 +1,6 @@
 package ac.csg.in2033.ipos.pu.gui;
 
-public class SceneController {
+import javafx.scene.Scene;
 
+public class SceneController {
 }
