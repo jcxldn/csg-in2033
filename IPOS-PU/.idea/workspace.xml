@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8148f834-f186-49fc-8811-247a7f4f1461" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/gui/src/main/java/ac/csg/in2033/ipos/pu/gui/login/LoginSceneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/gui/src/main/java/ac/csg/in2033/ipos/pu/gui/login/LoginSceneController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/gui/src/main/java/ac/csg/in2033/ipos/pu/gui/login/RegisterSceneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/gui/src/main/java/ac/csg/in2033/ipos/pu/gui/login/RegisterSceneController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/members/src/main/java/ac/csg/in2033/ipos/pu/members/AppViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/members/src/main/java/ac/csg/in2033/ipos/pu/members/AppViewController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/members/src/main/java/ac/csg/in2033/ipos/pu/members/UserDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/members/src/main/java/ac/csg/in2033/ipos/pu/members/UserDatabase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

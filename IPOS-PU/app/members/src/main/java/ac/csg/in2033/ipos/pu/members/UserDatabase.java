@@ -12,7 +12,6 @@ public class UserDatabase {
 
         String sql = "CREATE TABLE IF NOT EXISTS users ("
                 + "id INTEGER PRIMARY KEY AUTOINCREMENT,"
-                + "username TEXT UNIQUE NOT NULL,"
                 + "password TEXT NOT NULL,"
                 + "userType TEXT NOT NULL,"
                 + "email TEXT UNIQUE NOT NULL,"
@@ -31,17 +30,16 @@ public class UserDatabase {
     }
 
     // insert user
-    public static void insertUser(String username, String email, String password, String userType) {
+    public static void insertUser(String email, String password, String userType) {
 
-        String sql = "INSERT INTO users(username, password, userType , email) VALUES(?,?,?,?)";
+        String sql = "INSERT INTO users(email, password , userType) VALUES(?,?,?,?)";
 
         try (Connection conn = Database.connect();
              PreparedStatement ps = conn.prepareStatement(sql)) {
 
-            ps.setString(1, username);
+            ps.setString(1, email);
             ps.setString(2, password);
-            ps.setString(3, userType );
-            ps.setString(4, email);
+            ps.setString(3, userType);
 
             ps.executeUpdate();
             System.out.println("User added");
@@ -142,5 +140,15 @@ public class UserDatabase {
         }
 
         return false;
+    }
+    public static String generatePassword() {
+        String chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%";
+        StringBuilder password = new StringBuilder();
+
+        for (int i = 0; i < 10; i++) {
+            int index = (int) (Math.random() * chars.length());
+            password.append(chars.charAt(index));
+        }
+        return password.toString();
     }
 }
