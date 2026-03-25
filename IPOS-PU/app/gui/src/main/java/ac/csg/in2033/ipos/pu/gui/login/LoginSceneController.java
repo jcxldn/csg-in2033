@@ -51,50 +51,5 @@ public class LoginSceneController extends SceneController {
         // pass along the level of access of the user
 
         // if new user, prompt them to create a new password
-        emailTextField.setVisible(false);
-        notifLabel.setText("Please enter a new password and confirm to log in.");
-    }
-
-    @FXML
-    protected void OnNonCommercialRegisterButtonClick() {
-        // log button press
-        if (logger.isDebugEnabled()) {
-            logger.debug("Register button pressed.");
-        }
-
-        // these will be passed somewhere else
-        String username = emailTextField.getText();
-        //String password = passwordField.getText();
-
-        // the user is notified if the username is unique to complete the
-        // verification process using their email
-        notifLabel.setText("Please verify your email to complete registration.");
-
-        // send user/password text to other system
-        // check if user/password are correctly formatted
-        // check if user exists
-        // if user details don't exist, pass them along
-        // if commercial, send to IPOS-SA
-    }
-
-    @FXML
-    protected void OnCommercialRegisterLinkClick() throws IOException {
-        // create a FXMLLoader object
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("fxml/commercial-register-tab.fxml"));
-
-        // Create a Scene to contain the new GUI
-        Scene inputScene = new Scene(loader.load());
-
-        // Get a reference to the Controller for the new GUI
-        C_RegisterSceneController controller = loader.getController();
-
-        // Tell the controller who its parent window is
-        controller.setParent(LoginSceneController.this);
-
-        // Put the scene into a Stage and show it
-        Stage inputStage = new Stage();
-        inputStage.setTitle("Registration Form");
-        inputStage.setScene(inputScene);
-        inputStage.show();
     }
 }

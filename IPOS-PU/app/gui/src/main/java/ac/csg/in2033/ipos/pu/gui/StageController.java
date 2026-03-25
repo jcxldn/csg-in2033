@@ -26,7 +26,7 @@ public final class StageController {
         currentStage.setTitle(title);
     }
 
-    public static void setScene(URL resourcePath) {
+    public static void setScene(URL resourcePath) throws RuntimeException {
         if (currentStage == null) {
             logger.debug("Stage has not been initialised.");
             return;
@@ -40,6 +40,7 @@ public final class StageController {
             currentStage.show();
         } catch (IOException ex) {
             logger.debug("Attempted to set scene to {}.", resourcePath.getPath());
+            throw new RuntimeException("Failed to load FXML", ex);
             //logger.debug("Scene switch attempted from {} to {}", currentScene.toString(), resourcePath.getPath());
         }
     }

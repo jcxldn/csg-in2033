@@ -5,20 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8148f834-f186-49fc-8811-247a7f4f1461" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/gui/src/main/java/ac/csg/in2033/ipos/pu/gui/login/LoginRootSceneController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/gui/src/main/java/ac/csg/in2033/ipos/pu/gui/login/RegisterSceneController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/gui/src/main/resources/ac/csg/in2033/ipos/pu/gui/login/fxml/login-root-tab.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/gui/src/main/resources/ac/csg/in2033/ipos/pu/gui/login/fxml/register-tab.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/gui/src/test/resources/ac/csg/in2033/ipos/pu/gui/login/fxml/commercial-register-popup.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/gui/src/test/resources/ac/csg/in2033/ipos/pu/gui/login/fxml/login-root-tab.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/gui/src/test/resources/ac/csg/in2033/ipos/pu/gui/login/fxml/login-tab.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/gui/src/test/resources/ac/csg/in2033/ipos/pu/gui/login/fxml/register-tab.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/gui/src/main/java/ac/csg/in2033/ipos/pu/gui/AppView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/gui/src/main/java/ac/csg/in2033/ipos/pu/gui/AppView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/gui/src/main/java/ac/csg/in2033/ipos/pu/gui/AppViewSceneController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/gui/src/main/java/ac/csg/in2033/ipos/pu/gui/C_RegisterSceneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/gui/src/main/java/ac/csg/in2033/ipos/pu/gui/login/C_RegisterSceneController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/gui/src/main/java/ac/csg/in2033/ipos/pu/gui/LoginSceneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/gui/src/main/java/ac/csg/in2033/ipos/pu/gui/login/LoginSceneController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/gui/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/gui/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/gui/src/main/resources/ac/csg/in2033/ipos/pu/gui/fxml/app-view.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/gui/src/main/resources/ac/csg/in2033/ipos/pu/gui/fxml/commercial-register-menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/app/gui/src/main/resources/ac/csg/in2033/ipos/pu/gui/login/fxml/commercial-register-popup.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/gui/src/main/resources/ac/csg/in2033/ipos/pu/gui/fxml/login-menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/app/gui/src/main/resources/ac/csg/in2033/ipos/pu/gui/login/fxml/login-tab.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/gui/src/test/java/ac/csg/in2033/ipos/pu/gui/AppViewTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/gui/src/main/java/ac/csg/in2033/ipos/pu/gui/StageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/gui/src/main/java/ac/csg/in2033/ipos/pu/gui/StageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/gui/src/main/java/ac/csg/in2033/ipos/pu/gui/login/C_RegisterSceneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/gui/src/main/java/ac/csg/in2033/ipos/pu/gui/login/C_RegisterSceneController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/gui/src/main/java/ac/csg/in2033/ipos/pu/gui/login/LoginRootSceneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/gui/src/main/java/ac/csg/in2033/ipos/pu/gui/login/LoginRootSceneController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/gui/src/main/java/ac/csg/in2033/ipos/pu/gui/login/LoginSceneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/gui/src/main/java/ac/csg/in2033/ipos/pu/gui/login/LoginSceneController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/gui/src/main/java/ac/csg/in2033/ipos/pu/gui/login/RegisterSceneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/gui/src/main/java/ac/csg/in2033/ipos/pu/gui/login/RegisterSceneController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/gui/src/main/resources/ac/csg/in2033/ipos/pu/gui/login/fxml/commercial-register-popup.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/app/gui/src/main/resources/ac/csg/in2033/ipos/pu/gui/login/fxml/commercial-register-popup.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/gui/src/main/resources/ac/csg/in2033/ipos/pu/gui/login/fxml/login-root-tab.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/app/gui/src/main/resources/ac/csg/in2033/ipos/pu/gui/login/fxml/login-root-tab.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/gui/src/main/resources/ac/csg/in2033/ipos/pu/gui/login/fxml/login-tab.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/app/gui/src/main/resources/ac/csg/in2033/ipos/pu/gui/login/fxml/login-tab.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/gui/src/main/resources/ac/csg/in2033/ipos/pu/gui/login/fxml/register-tab.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/app/gui/src/main/resources/ac/csg/in2033/ipos/pu/gui/login/fxml/register-tab.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,9 +60,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="module-info" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
         <option value="FxmlFile" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -83,6 +84,7 @@
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.AppViewTest.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.AppViewTest.start.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.AppViewTest.testLoginFxmlLoads.executor&quot;: &quot;Debug&quot;,
     &quot;Gradle.Build IPOS-PU.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.IPOS-PU [:app:comms:ac.csg.in2033.ipos.pu.comms.Main.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.IPOS-PU [:app:gui:ac.csg.in2033.ipos.pu.gui.Main.main()].executor&quot;: &quot;Run&quot;,
@@ -101,7 +103,7 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/fury/Git/Uni/Year 2/Coursework/IN2033/CW2/FXML_SceneSwitcher-master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/fury/Git/Uni/Year 2/Coursework/IN2033/mediflow-solutions/csg-in2033/IPOS-PU/app/gui/src/test/resources/ac/csg/in2033/ipos/pu/gui/login/fxml&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
@@ -115,11 +117,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/gui/src/test/resources/ac/csg/in2033/ipos/pu/gui/login/fxml" />
       <recent name="$PROJECT_DIR$/app" />
       <recent name="$PROJECT_DIR$/app/prm/src/test/resources" />
       <recent name="$PROJECT_DIR$/app/gui/src/test/resources/ac/csg/in2033/ipos/pu/gui/fxml" />
       <recent name="$PROJECT_DIR$/app/gui/src/main/resources" />
-      <recent name="$PROJECT_DIR$/app/gui/src/main/resources/ac/csg/in2033/ipos/pu/gui/fxml" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/gui/src/main/resources/ac/csg/in2033/ipos/pu/gui/login/fxml" />
