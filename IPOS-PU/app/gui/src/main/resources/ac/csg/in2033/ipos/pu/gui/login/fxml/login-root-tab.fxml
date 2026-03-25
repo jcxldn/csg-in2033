@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.geometry.Insets?>
+
+<TabPane fx:id="tabPane"
+         xmlns="http://javafx.com/javafx/17.0.12"
+         xmlns:fx="http://javafx.com/fxml/1"
+         fx:controller="ac.csg.in2033.ipos.pu.gui.login.LoginRootSceneController">
+
+    <padding>
+        <Insets top="20" bottom="20" right="20" left="20" />
+    </padding>
+
+    <tabs>
+        <Tab fx:id="loginTab" text="Login">
+            <fx:include fx:id="loginTabController" source="login-tab.fxml" />
+        </Tab>
+        <Tab fx:id="registerTab" text="Register">
+            <fx:include fx:id="registerTabController" source="register-tab.fxml" />
+        </Tab>
+    </tabs>
+</TabPane>

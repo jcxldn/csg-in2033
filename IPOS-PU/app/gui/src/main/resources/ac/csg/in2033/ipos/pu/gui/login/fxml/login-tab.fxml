@@ -3,7 +3,10 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<VBox alignment="CENTER" prefHeight="200" prefWidth="300" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ac.csg.in2033.ipos.pu.gui.LoginSceneController">
+<VBox alignment="CENTER" prefHeight="200" prefWidth="300"
+      xmlns="http://javafx.com/javafx/17.0.12"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="ac.csg.in2033.ipos.pu.gui.login.LoginSceneController">
 
     <padding>
         <Insets top="20" bottom="20" />
@@ -15,7 +18,7 @@
             <padding>
                 <Insets bottom="20" />
             </padding>
-            <Label fx:id="desc" text="Customer Login" prefHeight="50" />
+            <Label fx:id="descriptionLabel" text="Customer Login" prefHeight="50" />
         </HBox>
 
         <!-- DETAILS -->
@@ -28,16 +31,16 @@
 
             <!-- USERNAME -->
 
-            <Label text="Email:" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+            <Label fx:id="emailLabel" text="Email:" GridPane.columnIndex="0" GridPane.rowIndex="0" />
 
-            <TextField fx:id="email" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+            <TextField fx:id="emailTextField" GridPane.columnIndex="0" GridPane.rowIndex="1" />
 
 
             <!-- PASSWORD -->
 
-            <Label text="Password:" GridPane.rowIndex="3" />
+            <Label fx:id="passwordLabel" text="Password:" GridPane.rowIndex="3" />
 
-            <PasswordField fx:id="pass" GridPane.rowIndex="4" />
+            <PasswordField fx:id="passwordField" GridPane.rowIndex="4" />
 
         </GridPane>
 
@@ -52,6 +55,7 @@
             <children>
 
                 <!-- NON-COMMERCIAL REGISTER BUTTON -->
+                <!-- TO BE MOVED -->
 
                 <Button fx:id="registerButton" alignment="CENTER" defaultButton="true" mnemonicParsing="false" onAction="#OnNonCommercialRegisterButtonClick" text="Register" />
 

@@ -10,7 +10,7 @@ public class AppView extends Application {
     public void start(Stage stage) throws IOException {
         StageController.setStage(stage);
         StageController.setTitle("Login");
-        StageController.setScene(getClass().getResource("fxml/login-menu.fxml"));
+        StageController.setScene(getClass().getResource("login/fxml/login-tab.fxml"));
     }
 
     public static void main(String[] args) {
