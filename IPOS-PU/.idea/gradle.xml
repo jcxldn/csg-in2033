@@ -16,22 +16,17 @@
           </compositeBuild>
         </compositeConfiguration>
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleJvm" value="ms-21" />
+        <option name="gradleJvm" value="25" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/app/comms" />
             <option value="$PROJECT_DIR$/app/gui" />
-<<<<<<< Updated upstream
             <option value="$PROJECT_DIR$/app/members" />
             <option value="$PROJECT_DIR$/app/prm" />
             <option value="$PROJECT_DIR$/app/rpt" />
             <option value="$PROJECT_DIR$/app/sales" />
-=======
-            <option value="$PROJECT_DIR$/app/prm" />
-            <option value="$PROJECT_DIR$/app/rpt" />
->>>>>>> Stashed changes
             <option value="$PROJECT_DIR$/buildSrc" />
           </set>
         </option>

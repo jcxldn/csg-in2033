@@ -1,4 +1,4 @@
-package ac.csg.in2033.ipos.pu.prm;
+package ac.csg.in2033.ipos.pu.gui;
 
 import org.junit.jupiter.api.Test;
 import java.net.URL;

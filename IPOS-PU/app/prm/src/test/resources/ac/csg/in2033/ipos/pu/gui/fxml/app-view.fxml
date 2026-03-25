@@ -4,11 +4,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<<<<<<< Updated upstream:IPOS-PU/app/prm/src/test/resources/ac/csg/in2033/ipos/pu/gui/fxml/app-view.fxml
 <VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml/" fx:controller="ac.csg.in2033.ipos.pu.gui.AppViewSceneController">
-=======
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml/" fx:controller="ac.csg.in2033.ipos.pu.prm.AppViewController">
->>>>>>> Stashed changes:IPOS-PU/app/prm/src/test/resources/ac/csg/in2033/ipos/pu/prm/fxml/app-view.fxml
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>

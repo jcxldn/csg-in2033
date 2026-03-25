@@ -5,27 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8148f834-f186-49fc-8811-247a7f4f1461" name="Changes" comment="">
-<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/gui/src/main/java/ac/csg/in2033/ipos/pu/gui/login/RegisterSceneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/gui/src/main/java/ac/csg/in2033/ipos/pu/gui/login/RegisterSceneController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/members/src/main/java/ac/csg/in2033/ipos/pu/members/AppViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/members/src/main/java/ac/csg/in2033/ipos/pu/members/AppViewController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/members/src/main/java/ac/csg/in2033/ipos/pu/members/UserDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/members/src/main/java/ac/csg/in2033/ipos/pu/members/UserDatabase.java" afterDir="false" />
-=======
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/prm/src/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/app/prm/src/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/prm/src/main/java/ac/csg/in2033/ipos/pu/prm/AppView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/prm/src/main/java/ac/csg/in2033/ipos/pu/prm/AppView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/prm/src/main/java/ac/csg/in2033/ipos/pu/prm/AppViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/prm/src/main/java/ac/csg/in2033/ipos/pu/prm/AppViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/prm/src/main/java/ac/csg/in2033/ipos/pu/prm/HelloFX.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/prm/src/main/java/ac/csg/in2033/ipos/pu/prm/HelloFX.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/prm/src/main/java/ac/csg/in2033/ipos/pu/prm/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/prm/src/main/java/ac/csg/in2033/ipos/pu/prm/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/prm/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/prm/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/prm/src/main/resources/ac/csg/in2033/ipos/pu/gui/fxml/app-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/app/prm/src/main/resources/ac/csg/in2033/ipos/pu/prm/fxml/app-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/prm/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/prm/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/prm/src/test/java/ac/csg/in2033/ipos/pu/prm/AppViewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/prm/src/test/java/ac/csg/in2033/ipos/pu/prm/AppViewTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/prm/src/test/resources/ac/csg/in2033/ipos/pu/gui/fxml/app-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/app/prm/src/test/resources/ac/csg/in2033/ipos/pu/prm/fxml/app-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
->>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,32 +61,16 @@
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
     &quot;state&quot;: &quot;OPEN&quot;,
-<<<<<<< Updated upstream
     &quot;assignee&quot;: &quot;Bahja-Suliman&quot;
-=======
-    &quot;assignee&quot;: &quot;Huzefa-Farooq-1&quot;
->>>>>>> Stashed changes
   }
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-<<<<<<< Updated upstream
     &quot;url&quot;: &quot;https://github.com/jcxldn/csg-in2033.git&quot;,
     &quot;accountId&quot;: &quot;6919283c-2e85-48f9-9e13-a87a67cd485d&quot;
   }
 }</component>
   <component name="GradleScriptDefinitionsStorage" workingDir="$PROJECT_DIR$" gradleHome="$USER_HOME$/.gradle/wrapper/dists/gradle-9.3.1-bin/23ovyewtku6u96viwx3xl3oks/gradle-9.3.1" javaHome="$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-25.0.1/Contents/Home" gradleVersion="9.3.1" />
-=======
-    &quot;url&quot;: &quot;git@github.com:jcxldn/csg-in2033.git&quot;,
-    &quot;accountId&quot;: &quot;a0f672a9-c357-4b98-b590-afcebbb56688&quot;
-  }
-}</component>
-  <component name="GradleScriptDefinitionsStorage" workingDir="$PROJECT_DIR$" gradleHome="$USER_HOME$/.gradle/wrapper/dists/gradle-9.3.1-bin/23ovyewtku6u96viwx3xl3oks/gradle-9.3.1" javaHome="$USER_HOME$/Library/Java/JavaVirtualMachines/ms-21.0.10/Contents/Home" gradleVersion="9.3.1" />
-  <component name="McpProjectServerCommands">
-    <commands />
-    <urls />
-  </component>
->>>>>>> Stashed changes
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 5
@@ -113,7 +80,6 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-<<<<<<< Updated upstream
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
@@ -150,62 +116,17 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
     &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
-=======
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.AppViewTest.start.executor": "Run",
-    "Gradle.Build IPOS-PU.executor": "Run",
-    "Gradle.IPOS-PU [:app:gui:ac.csg.in2033.ipos.pu.gui.Main.main()].executor": "Run",
-    "Gradle.IPOS-PU [:app:prm:ac.csg.in2033.ipos.pu.prm.Main.main()].executor": "Run",
-    "Gradle.IPOS-PU [:app:rpt:ac.csg.in2033.ipos.pu.rpt.Main.main()].executor": "Run",
-    "Gradle.IPOS-PU [:src:gui:ac.csg.in2033.ipos.pu.gui.Main.main()].executor": "Run",
-    "Gradle.IPOS-PU [:src:main:java:gui:ac.csg.in2033.ipos.pu.gui.Main.main()].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/huzefafarooq/Documents/csg-in2033/csg-in2033/IPOS-PU/app/rpt",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
->>>>>>> Stashed changes
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-<<<<<<< Updated upstream
       <recent name="$PROJECT_DIR$/app" />
       <recent name="$PROJECT_DIR$/app/prm/src/test/resources" />
       <recent name="$PROJECT_DIR$/app/gui/src/test/resources/ac/csg/in2033/ipos/pu/gui/fxml" />
       <recent name="$PROJECT_DIR$/app/gui/src/main/resources" />
       <recent name="$PROJECT_DIR$/app/gui/src/main/resources/ac/csg/in2033/ipos/pu/gui/fxml" />
-=======
-      <recent name="$PROJECT_DIR$/app/rpt" />
-      <recent name="$PROJECT_DIR$/app/prm/src" />
-      <recent name="$PROJECT_DIR$/app/prm" />
-      <recent name="$PROJECT_DIR$/app" />
-      <recent name="$PROJECT_DIR$/app/gui/src/test/resources/ac/csg/in2033/ipos/pu/gui/fxml" />
->>>>>>> Stashed changes
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/rpt/src/main/resources/ac/csg/in2033/ipos/pu/rpt/fxml" />
       <recent name="$PROJECT_DIR$/src/main/java" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
@@ -250,20 +171,12 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-<<<<<<< Updated upstream
         <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.28238.7" />
         <option value="bundled-js-predefined-d6986cc7102b-a71380e98a7c-JavaScript-IU-252.28238.7" />
       </set>
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-=======
-        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.31033.145" />
-      </set>
-    </attachedChunks>
-  </component>
->>>>>>> Stashed changes
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="8148f834-f186-49fc-8811-247a7f4f1461" name="Changes" comment="" />
@@ -271,22 +184,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1773255702260</updated>
-<<<<<<< Updated upstream
       <workItem from="1774272574924" duration="1571000" />
       <workItem from="1774429302178" duration="1482000" />
-=======
-      <workItem from="1773671211038" duration="13000" />
-      <workItem from="1773671302939" duration="2244000" />
-      <workItem from="1773709295474" duration="1218000" />
-      <workItem from="1774272657605" duration="838000" />
->>>>>>> Stashed changes
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-<<<<<<< Updated upstream
   <component name="github-copilot-workspace">
     <instructionFileLocations>
       <option value=".github/instructions" />
@@ -295,6 +200,4 @@
       <option value=".github/prompts" />
     </promptFileLocations>
   </component>
-=======
->>>>>>> Stashed changes
 </project>
