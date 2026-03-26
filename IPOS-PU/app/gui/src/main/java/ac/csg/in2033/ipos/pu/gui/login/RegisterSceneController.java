@@ -67,6 +67,7 @@ public class RegisterSceneController extends SceneController {
 
         // Put the scene into a Stage and show it
         Stage inputStage = new Stage();
+        controller.setPopupStage(inputStage);
         inputStage.setTitle("Registration Form");
         inputStage.setScene(inputScene);
         inputStage.show();
