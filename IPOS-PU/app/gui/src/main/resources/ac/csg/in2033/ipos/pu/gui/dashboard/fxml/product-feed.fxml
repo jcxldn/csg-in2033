@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<ScrollPane xmlns="http://javafx.com/javafx/17.0.12"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:id="productScrollPane"
+            prefWidth="600"
+            prefHeight="400">
+
+    <padding>
+        <Insets top="10" left="10" right="10" bottom="10"/>
+    </padding>
+
+    <content>
+        <VBox fx:id="productContainer"
+              alignment="TOP_CENTER"
+              spacing="10">
+            <!-- PRODUCT FEED PLACEHOLDER -->
+            <Label text="Product 1" />
+            <Label text="Product 2" />
+            <Label text="Product 3" />
+            <Label text="Product 4" />
+        </VBox>
+    </content>
+</ScrollPane>

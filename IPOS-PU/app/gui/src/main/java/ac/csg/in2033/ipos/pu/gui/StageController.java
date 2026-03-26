@@ -34,7 +34,7 @@ public final class StageController {
 
         try {
             FXMLLoader fxmlLoader = new FXMLLoader(resourcePath);
-            Scene scene = new Scene(fxmlLoader.load(), 680, 480);
+            Scene scene = new Scene(fxmlLoader.load());
             currentScene = scene;
             currentStage.setScene(scene);
             currentStage.show();
