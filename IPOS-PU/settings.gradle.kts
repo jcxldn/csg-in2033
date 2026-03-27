@@ -7,7 +7,6 @@ rootProject.name = "IPOS-PU"
 include("app:gui")
 include("app:prm")
 include("app:rpt")
-
 include("app:prm")
 include("app:comms")
 include("app:members")

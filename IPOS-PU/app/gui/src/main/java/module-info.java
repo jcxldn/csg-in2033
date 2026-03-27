@@ -2,7 +2,8 @@ module IPOS.PU.app.gui.main {
     requires javafx.controls;
     requires org.slf4j;
     requires javafx.fxml;
-    requires IPOS.PU.app.members.main ;
+    requires IPOS.PU.app.members.main;
+    requires IPOS.PU.app.sales.main;
 
     exports ac.csg.in2033.ipos.pu.gui;
     opens ac.csg.in2033.ipos.pu.gui to javafx.graphics, javafx.fxml;

@@ -12,6 +12,7 @@ javafx {
 dependencies {
     implementation(project(":app:members"))
 }
+
 application {
     // Define the main class for the application.
     mainClass = "ac.csg.in2033.ipos.pu.gui.Main"
