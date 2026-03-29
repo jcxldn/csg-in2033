@@ -2,20 +2,19 @@ package ac.csg.in2033.ipos.pu.members;
 
 public class User {
 
-    private String username;
+
     private String password;
     private String userType;
     private String email;
 
-    public User(String username, String password, String userType, String email) {
-        this.username = username;
+    public User(String email, String password, String userType) {
+
+        this.email = email;
         this.password = password;
         this.userType = userType;
-        this.email = email;
     }
-
-    public String getUsername() {
-        return username;
+    public String getEmail() {
+        return email;
     }
 
     public String getPassword() {
@@ -26,7 +25,4 @@ public class User {
         return userType;
     }
 
-    public String getEmail() {
-        return email;
-    }
 }

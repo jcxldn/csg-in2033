@@ -19,7 +19,8 @@ public class UserDatabase {
                 + "password TEXT NOT NULL,"
                 + "userType TEXT NOT NULL,"
                 + "email TEXT UNIQUE NOT NULL,"
-                + "firstLogin INTEGER DEFAULT 1"
+                + "firstLogin INTEGER DEFAULT 1,"
+                + "purchaseCount INTEGER DEFAULT 0"
                 + ");";
 
         try (Connection conn = Database.connect();
@@ -36,7 +37,7 @@ public class UserDatabase {
     // insert user
     public static void insertUser(String email, String password, String userType) {
 
-        String sql = "INSERT INTO users(email, password , userType) VALUES(?,?,?,?)";
+        String sql = "INSERT INTO users(email, password , userType) VALUES(?,?,?)";
 
         try (Connection conn = Database.connect();
              PreparedStatement ps = conn.prepareStatement(sql)) {
@@ -72,6 +73,7 @@ public class UserDatabase {
             return false;
         }
     }
+
     public static String getUserType(String email) {
 
         String sql = "SELECT userType FROM users WHERE email=?";
@@ -94,15 +96,15 @@ public class UserDatabase {
     }
 
     // change password
-    public static void changePassword(String username, String newPassword) {
+    public static void changePassword(String email, String newPassword) {
 
-        String sql = "UPDATE users SET password=? WHERE username=?";
+        String sql = "UPDATE users SET password=? WHERE email=?";
 
         try (Connection conn = Database.connect();
              PreparedStatement ps = conn.prepareStatement(sql)) {
 
             ps.setString(1, newPassword);
-            ps.setString(2, username);
+            ps.setString(2, email);
 
             ps.executeUpdate();
             logger.debug("Password changed");
@@ -111,6 +113,7 @@ public class UserDatabase {
             logger.error("Failed to change password:", e);
         }
     }
+
     public static void setFirstLogin(String email, boolean input) {
         // Convert boolean to 1 or 0 to be stored in the DB
         String s = input ? "1" : "0";
@@ -130,6 +133,7 @@ public class UserDatabase {
             logger.error("failed to set first login:", e);
         }
     }
+
     public static boolean isFirstLogin(String email) {
 
         String sql = "SELECT firstLogin FROM users WHERE email=?";
@@ -150,6 +154,7 @@ public class UserDatabase {
 
         return false;
     }
+
     public static String generatePassword() {
         String chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%";
         StringBuilder password = new StringBuilder();
@@ -159,5 +164,44 @@ public class UserDatabase {
             password.append(chars.charAt(index));
         }
         return password.toString();
+    }
+
+    public static int getPurchaseCount(String email) {
+        String sql = "SELECT purchaseCount FROM users WHERE email=?";
+
+        try (Connection conn = Database.connect();
+             PreparedStatement ps = conn.prepareStatement(sql)) {
+
+            ps.setString(1, email);
+            ResultSet rs = ps.executeQuery();
+
+            if (rs.next()) {
+                return rs.getInt("purchaseCount");
+            }
+
+        } catch (Exception e) {
+            logger.error("Failed to get purchase count:", e);
+        }
+
+        return 0;
+    }
+
+    public static boolean isTenthOrder(String email) {
+        int count = getPurchaseCount(email);
+        return (count + 1) % 10 == 0;
+    }
+
+    public static void incrementPurchase(String email) {
+        String sql = "UPDATE users SET purchaseCount = purchaseCount + 1 WHERE email=?";
+
+        try (Connection conn = Database.connect();
+             PreparedStatement ps = conn.prepareStatement(sql)) {
+
+            ps.setString(1, email);
+            ps.executeUpdate();
+
+        } catch (Exception e) {
+            System.out.println("Failed to update purchase count");
+        }
     }
 }
