@@ -12,6 +12,11 @@ public class NC_DashboardSceneController {
     @FXML private GridPane productGrid;
 
     @FXML
+    public void initialize() {
+
+    }
+
+    @FXML
     private void onSearchClick() {
         String query = searchField.getText();
     }

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.shape.Rectangle?>
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="ac.csg.in2033.ipos.pu.gui.dashboard.ProductItemSceneController"
+      spacing="10" style="-fx-padding: 10; -fx-border-color: gray; -fx-border-radius: 5; -fx-border-width: 2;"
+      alignment="CENTER" prefWidth="200" prefHeight="200">
+
+    <StackPane fx:id="imageStack" prefHeight="120" prefWidth="150">
+        <!-- IMAGE -->
+        <ImageView fx:id="productImage" fitHeight="120" fitWidth="150" preserveRatio="true"/>
+
+        <!-- Dark overlay (semi-transparent black) -->
+        <Rectangle width="150" height="120" fill="black" opacity="0.3" visible="false" fx:id="darkOverlay"/>
+
+        <!-- Add to Cart Button (Initially Invisible) -->
+        <Button fx:id="addToCartButton" text="Add to Cart" visible="false" style="-fx-background-color: none; -fx-text-fill: white;"/>
+
+    </StackPane>
+
+    <!-- NAME AND PRICE -->
+    <VBox spacing="5" alignment="CENTER" prefWidth="150">
+        <Text fx:id="productName" style="-fx-font-size: 14px; -fx-font-weight: bold;" text="Name" />
+        <Text fx:id="productPrice" style="-fx-font-size: 12px; -fx-text-fill: green;" text="£0.00" />
+    </VBox>
+</VBox>

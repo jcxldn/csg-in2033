@@ -10,7 +10,7 @@ public class PromotionServiceImpl implements PromotionService {
 
     @Override
     public void recordCampaignClick(String campaignName) {
-        for (Promotions p : manager.getAllPromotions()) {
+        for (Promotion p : manager.getAllPromotions()) {
             if (p.getName().equals(campaignName)) {
                 p.recordCampaignClick();
             }
@@ -19,7 +19,7 @@ public class PromotionServiceImpl implements PromotionService {
 
     @Override
     public void recordItemAdded(String campaignName, String productId, int quantity) {
-        for (Promotions p : manager.getAllPromotions()) {
+        for (Promotion p : manager.getAllPromotions()) {
             if (p.getName().equals(campaignName)) {
                 p.recordItemAdded(productId, quantity);
             }
@@ -28,7 +28,7 @@ public class PromotionServiceImpl implements PromotionService {
 
     @Override
     public void recordItemPurchased(String campaignName, String productId, int quantity) {
-        for (Promotions p : manager.getAllPromotions()) {
+        for (Promotion p : manager.getAllPromotions()) {
             if (p.getName().equals(campaignName)) {
                 p.recordItemPurchased(productId, quantity);
             }
@@ -37,7 +37,7 @@ public class PromotionServiceImpl implements PromotionService {
 
     @Override
     public double getDiscount(String productId) {
-        for (Promotions p : manager.getActivePromotions()) {
+        for (Promotion p : manager.getActivePromotions()) {
             double discount = p.getDiscount(productId);
             if (discount > 0) return discount;
         }

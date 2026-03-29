@@ -5,6 +5,7 @@ public class Product {
     private String name;
     private String description;
     private double price;
+    private double discountedPrice;
     private String imageURL;
 
     public Product(int id, String name, String description, double price, String imageURL) {
@@ -12,6 +13,7 @@ public class Product {
         this.name = name;
         this.description = description;
         this.price = price;
+        this.discountedPrice = price;
         this.imageURL = imageURL;
     }
 
@@ -32,7 +34,11 @@ public class Product {
         return price;
     }
 
+    public double getDiscountedPrice() { return discountedPrice; }
+
     public String getImageURL() {
         return imageURL;
     }
+
+    public void setDiscountedPrice(double discountedPrice) { this.price = discountedPrice; }
 }

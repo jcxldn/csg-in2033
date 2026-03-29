@@ -12,7 +12,7 @@ class PromotionManagerTest {
     void testAddPromotionSuccess() {
         PromotionManager manager = new PromotionManager();
 
-        Promotions promo = new Promotions(
+        Promotion promo = new Promotion(
                 "Promo1",
                 LocalDateTime.now(),
                 LocalDateTime.now().plusDays(5)
@@ -25,13 +25,13 @@ class PromotionManagerTest {
     void testOverlappingPromotionFails() {
         PromotionManager manager = new PromotionManager();
 
-        Promotions p1 = new Promotions(
+        Promotion p1 = new Promotion(
                 "P1",
                 LocalDateTime.now(),
                 LocalDateTime.now().plusDays(5)
         );
 
-        Promotions p2 = new Promotions(
+        Promotion p2 = new Promotion(
                 "P2",
                 LocalDateTime.now().plusDays(1),
                 LocalDateTime.now().plusDays(6)
@@ -47,13 +47,13 @@ class PromotionManagerTest {
     void testGetActivePromotions() {
         PromotionManager manager = new PromotionManager();
 
-        Promotions activePromo = new Promotions(
+        Promotion activePromo = new Promotion(
                 "Active",
                 LocalDateTime.now().minusDays(1),
                 LocalDateTime.now().plusDays(1)
         );
 
-        Promotions inactivePromo = new Promotions(
+        Promotion inactivePromo = new Promotion(
                 "Inactive",
                 LocalDateTime.now().plusDays(1),
                 LocalDateTime.now().plusDays(2)
@@ -69,7 +69,7 @@ class PromotionManagerTest {
     void testDeletePromotion() {
         PromotionManager manager = new PromotionManager();
 
-        Promotions promo = new Promotions(
+        Promotion promo = new Promotion(
                 "DeleteMe",
                 LocalDateTime.now(),
                 LocalDateTime.now().plusDays(1)
@@ -85,7 +85,7 @@ class PromotionManagerTest {
     void testTerminatePromotion() {
         PromotionManager manager = new PromotionManager();
 
-        Promotions promo = new Promotions(
+        Promotion promo = new Promotion(
                 "TerminateMe",
                 LocalDateTime.now(),
                 LocalDateTime.now().plusDays(5)

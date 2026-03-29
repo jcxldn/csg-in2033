@@ -6,11 +6,11 @@ import java.time.LocalDateTime;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class PromotionsTest {
+class PromotionTest {
 
     @Test
     void testPromotionIsActive() {
-        Promotions promo = new Promotions(
+        Promotion promo = new Promotion(
                 "TestPromo",
                 LocalDateTime.now().minusDays(1),
                 LocalDateTime.now().plusDays(1)
@@ -21,7 +21,7 @@ class PromotionsTest {
 
     @Test
     void testPromotionIsNotActive() {
-        Promotions promo = new Promotions(
+        Promotion promo = new Promotion(
                 "TestPromo",
                 LocalDateTime.now().plusDays(1),
                 LocalDateTime.now().plusDays(2)
@@ -32,7 +32,7 @@ class PromotionsTest {
 
     @Test
     void testAddProductAndDiscount() {
-        Promotions promo = new Promotions(
+        Promotion promo = new Promotion(
                 "TestPromo",
                 LocalDateTime.now(),
                 LocalDateTime.now().plusDays(1)
@@ -45,7 +45,7 @@ class PromotionsTest {
 
     @Test
     void testDefaultDiscountIsZero() {
-        Promotions promo = new Promotions(
+        Promotion promo = new Promotion(
                 "TestPromo",
                 LocalDateTime.now(),
                 LocalDateTime.now().plusDays(1)
@@ -56,7 +56,7 @@ class PromotionsTest {
 
     @Test
     void testCampaignClickCounter() {
-        Promotions promo = new Promotions(
+        Promotion promo = new Promotion(
                 "TestPromo",
                 LocalDateTime.now(),
                 LocalDateTime.now().plusDays(1)
@@ -70,7 +70,7 @@ class PromotionsTest {
 
     @Test
     void testItemAddedCounter() {
-        Promotions promo = new Promotions(
+        Promotion promo = new Promotion(
                 "TestPromo",
                 LocalDateTime.now(),
                 LocalDateTime.now().plusDays(1)
@@ -84,7 +84,7 @@ class PromotionsTest {
 
     @Test
     void testItemPurchasedCounter() {
-        Promotions promo = new Promotions(
+        Promotion promo = new Promotion(
                 "TestPromo",
                 LocalDateTime.now(),
                 LocalDateTime.now().plusDays(1)

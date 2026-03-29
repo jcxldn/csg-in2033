@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox alignment="CENTER"
+      xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="ac.csg.in2033.ipos.pu.gui.login.RegisterSceneController"
+      prefHeight="400" prefWidth="600">
+
+    <padding>
+        <Insets top="20" bottom="20" />
+    </padding>
+
+    <children>
+
+        <HBox alignment="CENTER">
+            <padding>
+                <Insets bottom="20" />
+            </padding>
+            <Label fx:id="descriptionLabel" text="Customer Registration" prefHeight="50" />
+        </HBox>
+
+        <!-- DETAILS -->
+
+        <GridPane alignment="CENTER" hgap="10" vgap="10">
+
+            <padding>
+                <Insets bottom="20" />
+            </padding>
+
+            <!-- USERNAME -->
+
+            <Label fx:id="emailLabel" text="Email:" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+
+            <TextField fx:id="emailTextField" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+
+        </GridPane>
+
+        <!-- BUTTONS -->
+
+        <HBox alignment="CENTER">
+
+            <padding>
+                <Insets bottom="20" />
+            </padding>
+
+            <children>
+                <!-- COMMERCIAL REGISTER BUTTON -->
+
+                <Button fx:id="registerButton" alignment="CENTER" defaultButton="true" mnemonicParsing="false" onAction="#OnNonCommercialRegisterButtonClick" text="Register" />
+            </children>
+
+        </HBox>
+
+        <HBox alignment="CENTER">
+            <padding>
+                <Insets bottom="10" />
+            </padding>
+
+            <Label fx:id="notifLabel" />
+        </HBox>
+
+
+
+        <!-- COMMERCIAL REGISTER LINK -->
+
+        <Hyperlink fx:id="registerLink" alignment="CENTER" mnemonicParsing="false" onAction="#OnCommercialRegisterLinkClick" text="Looking to register as a merchant?" />
+    </children>
+
+</VBox>

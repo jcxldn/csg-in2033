@@ -33,8 +33,7 @@
 
     <!-- SEARCH BAR -->
     <HBox alignment="CENTER" spacing="10">
-        <TextField fx:id="searchField" promptText="Search products..." />
-        <Button text="Search" onAction="#onSearchClick" />
+        <fx:include source="search-bar.fxml" />
     </HBox>
 
     <!-- PRODUCT FEED -->

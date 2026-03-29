@@ -6,11 +6,11 @@ import java.util.List;
 
 public class PromotionManager {
 
-    private List<Promotions> promotions = new ArrayList<>();
+    private List<Promotion> promotions = new ArrayList<>();
 
     // CREATE
-    public boolean addPromotion(Promotions newPromo) {
-        for (Promotions p : promotions) {
+    public boolean addPromotion(Promotion newPromo) {
+        for (Promotion p : promotions) {
             if (isOverlapping(p, newPromo)) {
                 System.out.println("Conflict: overlapping campaign");
                 return false;
@@ -21,15 +21,15 @@ public class PromotionManager {
     }
 
     // OVERLAP CHECK
-    private boolean isOverlapping(Promotions p1, Promotions p2) {
+    private boolean isOverlapping(Promotion p1, Promotion p2) {
         return !(p1.getEndDate().isBefore(p2.getStartDate()) ||
                 p2.getEndDate().isBefore(p1.getStartDate()));
     }
 
     // VIEW ACTIVE
-    public List<Promotions> getActivePromotions() {
-        List<Promotions> active = new ArrayList<>();
-        for (Promotions p : promotions) {
+    public List<Promotion> getActivePromotions() {
+        List<Promotion> active = new ArrayList<>();
+        for (Promotion p : promotions) {
             if (p.isActive()) {
                 active.add(p);
             }
@@ -44,7 +44,7 @@ public class PromotionManager {
 
     // TERMINATE EARLY
     public void terminatePromotion(String name) {
-        for (Promotions p : promotions) {
+        for (Promotion p : promotions) {
             if (p.getName().equals(name)) {
                 p.setEndDate(LocalDateTime.now());
             }
@@ -53,7 +53,7 @@ public class PromotionManager {
 
     // MODIFY DATES
     public void updateDates(String name, LocalDateTime newStart, LocalDateTime newEnd) {
-        for (Promotions p : promotions) {
+        for (Promotion p : promotions) {
             if (p.getName().equals(name)) {
                 p.setStartDate(newStart);
                 p.setEndDate(newEnd);
@@ -61,7 +61,7 @@ public class PromotionManager {
         }
     }
 
-    public List<Promotions> getAllPromotions() {
+    public List<Promotion> getAllPromotions() {
         return promotions;
     }
 }

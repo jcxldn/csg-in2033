@@ -1,0 +1,22 @@
+<configuration>
+
+    <!-- Include the shared common configuration -->
+    <include resource="logs/config/logback-common.xml"/>
+
+    <appender name="SALES_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/sales.log</file>
+        <append>true</append>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>logs/sales.log.%d{yyyy-MM-dd}.gz</fileNamePattern>
+            <maxHistory>7</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%date{HH:mm:ss.SSS} [Thread.%t] %-30c{1} %-5p %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="ac.csg.in2033.ipos.pu.sales" level="DEBUG">
+        <appender-ref ref="SALES_FILE"/>
+    </logger>
+
+</configuration>

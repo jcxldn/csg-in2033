@@ -12,10 +12,7 @@ javafx {
 dependencies {
     implementation(project(":app:members"))
     implementation(project(":app:sales"))
-}
-
-dependencies {
-    implementation(project(":app:sales"))
+    implementation(project(":app:prm"))
 }
 
 application {

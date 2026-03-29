@@ -25,6 +25,9 @@ public class ProductItemSceneController {
     @FXML
     private Text productPrice;
 
+    @FXML
+    private Text discountPrice;
+
     public void setProduct(Product product) {
         InputStream imagePath = getClass().getResourceAsStream(product.getImageURL());
 
@@ -38,5 +41,11 @@ public class ProductItemSceneController {
         productImage.setImage(new Image(imagePath));
         productName.setText(product.getName());
         productPrice.setText(String.format("£%.2f", product.getPrice()));
+
+        if (product.getPrice() < product.getDiscountedPrice()) {
+            productPrice.setStyle("-fx-strikethrough: true;");
+            discountPrice.setText(String.format("£%.2f", product.getDiscountedPrice()));
+            logger.info("Product of ID {} has a discounted price of {}.", product.getId(), product.getDiscountedPrice());
+        }
     }
 }

@@ -1,0 +1,22 @@
+<configuration>
+
+    <!-- Include the shared common configuration -->
+    <include resource="logs/config/logback-common.xml"/>
+
+    <appender name="GUI_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/gui.log</file>
+        <append>true</append>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>logs/gui.log.%d{yyyy-MM-dd}.gz</fileNamePattern>
+            <maxHistory>7</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%date{HH:mm:ss.SSS} [Thread.%t] %-30c{1} %-5p %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="ac.csg.in2033.ipos.pu.gui" level="DEBUG">
+        <appender-ref ref="GUI_FILE"/>
+    </logger>
+
+</configuration>

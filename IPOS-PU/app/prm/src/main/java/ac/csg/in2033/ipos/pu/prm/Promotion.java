@@ -4,7 +4,7 @@ import java.time.LocalDateTime;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Promotions {
+public class Promotion {
 
     private String name;
     private LocalDateTime startDate;
@@ -18,7 +18,7 @@ public class Promotions {
     private Map<String, Integer> itemAddedCount = new HashMap<>();
     private Map<String, Integer> itemPurchasedCount = new HashMap<>();
 
-    public Promotions(String name, LocalDateTime startDate, LocalDateTime endDate) {
+    public Promotion(String name, LocalDateTime startDate, LocalDateTime endDate) {
         this.name = name;
         this.startDate = startDate;
         this.endDate = endDate;

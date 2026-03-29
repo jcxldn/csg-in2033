@@ -13,7 +13,7 @@ class PromotionServiceTest {
         PromotionManager manager = new PromotionManager();
         PromotionServiceImpl service = new PromotionServiceImpl(manager);
 
-        Promotions promo = new Promotions(
+        Promotion promo = new Promotion(
                 "TestPromo",
                 LocalDateTime.now(),
                 LocalDateTime.now().plusDays(1)
@@ -32,7 +32,7 @@ class PromotionServiceTest {
         PromotionManager manager = new PromotionManager();
         PromotionServiceImpl service = new PromotionServiceImpl(manager);
 
-        Promotions promo = new Promotions(
+        Promotion promo = new Promotion(
                 "TestPromo",
                 LocalDateTime.now(),
                 LocalDateTime.now().plusDays(1)
@@ -51,7 +51,7 @@ class PromotionServiceTest {
         PromotionManager manager = new PromotionManager();
         PromotionServiceImpl service = new PromotionServiceImpl(manager);
 
-        Promotions promo = new Promotions(
+        Promotion promo = new Promotion(
                 "TestPromo",
                 LocalDateTime.now(),
                 LocalDateTime.now().plusDays(1)
@@ -70,7 +70,7 @@ class PromotionServiceTest {
         PromotionManager manager = new PromotionManager();
         PromotionServiceImpl service = new PromotionServiceImpl(manager);
 
-        Promotions promo = new Promotions(
+        Promotion promo = new Promotion(
                 "TestPromo",
                 LocalDateTime.now().minusDays(1),
                 LocalDateTime.now().plusDays(1)

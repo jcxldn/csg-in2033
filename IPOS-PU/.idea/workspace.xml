@@ -5,9 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8148f834-f186-49fc-8811-247a7f4f1461" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/gui/src/main/java/ac/csg/in2033/ipos/pu/gui/dashboard/SearchBarSceneController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/gui/src/main/resources/ac/csg/in2033/ipos/pu/gui/dashboard/fxml/search-bar.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/gui/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/app/gui/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/gui/src/main/java/ac/csg/in2033/ipos/pu/gui/login/RegisterSceneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/gui/src/main/java/ac/csg/in2033/ipos/pu/gui/login/RegisterSceneController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/gui/src/main/java/ac/csg/in2033/ipos/pu/gui/dashboard/NC_DashboardSceneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/gui/src/main/java/ac/csg/in2033/ipos/pu/gui/dashboard/NC_DashboardSceneController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/gui/src/main/java/ac/csg/in2033/ipos/pu/gui/dashboard/ProductFeedSceneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/gui/src/main/java/ac/csg/in2033/ipos/pu/gui/dashboard/ProductFeedSceneController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/gui/src/main/java/ac/csg/in2033/ipos/pu/gui/dashboard/ProductItemSceneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/gui/src/main/java/ac/csg/in2033/ipos/pu/gui/dashboard/ProductItemSceneController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/gui/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/gui/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/gui/src/main/resources/ac/csg/in2033/ipos/pu/gui/dashboard/fxml/non-commercial-dashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/app/gui/src/main/resources/ac/csg/in2033/ipos/pu/gui/dashboard/fxml/non-commercial-dashboard.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/gui/src/main/resources/ac/csg/in2033/ipos/pu/gui/dashboard/fxml/product-item.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/app/gui/src/main/resources/ac/csg/in2033/ipos/pu/gui/dashboard/fxml/product-item.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/prm/src/main/java/ac/csg/in2033/ipos/pu/prm/PromotionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/prm/src/main/java/ac/csg/in2033/ipos/pu/prm/PromotionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/prm/src/main/java/ac/csg/in2033/ipos/pu/prm/PromotionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/prm/src/main/java/ac/csg/in2033/ipos/pu/prm/PromotionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/prm/src/main/java/ac/csg/in2033/ipos/pu/prm/Promotions.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/prm/src/main/java/ac/csg/in2033/ipos/pu/prm/Promotion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/prm/src/test/java/ac/csg/in2033/ipos/pu/prm/PromotionManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/prm/src/test/java/ac/csg/in2033/ipos/pu/prm/PromotionManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/prm/src/test/java/ac/csg/in2033/ipos/pu/prm/PromotionServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/prm/src/test/java/ac/csg/in2033/ipos/pu/prm/PromotionServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/prm/src/test/java/ac/csg/in2033/ipos/pu/prm/PromotionServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/prm/src/test/java/ac/csg/in2033/ipos/pu/prm/PromotionServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/prm/src/test/java/ac/csg/in2033/ipos/pu/prm/PromotionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/prm/src/test/java/ac/csg/in2033/ipos/pu/prm/PromotionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sales/src/main/java/ac/csg/in2033/ipos/pu/sales/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/sales/src/main/java/ac/csg/in2033/ipos/pu/sales/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,8 +64,8 @@
       <list>
         <option value="module-info" />
         <option value="JUnit5 Test Class" />
-        <option value="FxmlFile" />
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -69,7 +84,7 @@
     &quot;accountId&quot;: &quot;6919283c-2e85-48f9-9e13-a87a67cd485d&quot;
   }
 }</component>
-  <component name="GradleScriptDefinitionsStorage" workingDir="$PROJECT_DIR$" gradleHome="$USER_HOME$/.gradle/wrapper/dists/gradle-9.3.1-bin/23ovyewtku6u96viwx3xl3oks/gradle-9.3.1" javaHome="/usr/lib/jvm/default" gradleVersion="9.3.1" />
+  <component name="GradleScriptDefinitionsStorage" workingDir="$PROJECT_DIR$" gradleHome="$USER_HOME$/.gradle/wrapper/dists/gradle-9.3.1-bin/23ovyewtku6u96viwx3xl3oks/gradle-9.3.1" javaHome="/usr/lib/jvm/java-21-openjdk" gradleVersion="9.3.1" />
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 5
@@ -79,44 +94,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.AppViewTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.AppViewTest.start.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Build IPOS-PU.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.IPOS-PU [:app:comms:ac.csg.in2033.ipos.pu.comms.Main.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.IPOS-PU [:app:gui:ac.csg.in2033.ipos.pu.gui.Main.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.IPOS-PU [:app:members:ac.csg.in2033.ipos.pu.members.AppView.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.IPOS-PU [:app:members:ac.csg.in2033.ipos.pu.members.Main.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.IPOS-PU [:app:prm:ac.csg.in2033.ipos.pu.prm.Main.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.IPOS-PU [:app:rpt:ac.csg.in2033.ipos.pu.rpt.Main.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.IPOS-PU [:app:sales:ac.csg.in2033.ipos.pu.sales.Main.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.IPOS-PU [:src:gui:ac.csg.in2033.ipos.pu.gui.Main.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.IPOS-PU [:src:main:java:gui:ac.csg.in2033.ipos.pu.gui.Main.main()].executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/fury/Git/Uni/Year 2/Coursework/IN2033/mediflow-solutions/csg-in2033/IPOS-PU/app/gui/src/main/resources/ac/csg/in2033/ipos/pu/gui/dashboard/fxml&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AppView.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Gradle.AppViewTest.executor": "Run",
+    "Gradle.AppViewTest.start.executor": "Run",
+    "Gradle.Build IPOS-PU.executor": "Run",
+    "Gradle.IPOS-PU [:app:comms:ac.csg.in2033.ipos.pu.comms.Main.main()].executor": "Run",
+    "Gradle.IPOS-PU [:app:gui:ac.csg.in2033.ipos.pu.gui.Main.main()].executor": "Run",
+    "Gradle.IPOS-PU [:app:members:ac.csg.in2033.ipos.pu.members.AppView.main()].executor": "Run",
+    "Gradle.IPOS-PU [:app:members:ac.csg.in2033.ipos.pu.members.Main.main()].executor": "Run",
+    "Gradle.IPOS-PU [:app:prm:ac.csg.in2033.ipos.pu.prm.Main.main()].executor": "Run",
+    "Gradle.IPOS-PU [:app:rpt:ac.csg.in2033.ipos.pu.rpt.Main.main()].executor": "Run",
+    "Gradle.IPOS-PU [:app:sales:ac.csg.in2033.ipos.pu.sales.Main.main()].executor": "Run",
+    "Gradle.IPOS-PU [:src:gui:ac.csg.in2033.ipos.pu.gui.Main.main()].executor": "Run",
+    "Gradle.IPOS-PU [:src:main:java:gui:ac.csg.in2033.ipos.pu.gui.Main.main()].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/fury/Git/Uni/Year 2/Coursework/IN2033/mediflow-solutions/csg-in2033/IPOS-PU/app/gui/src/main/resources/ac/csg/in2033/ipos/pu/gui/dashboard/fxml",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/gui/src/main/resources/ac/csg/in2033/ipos/pu/gui/dashboard/fxml" />

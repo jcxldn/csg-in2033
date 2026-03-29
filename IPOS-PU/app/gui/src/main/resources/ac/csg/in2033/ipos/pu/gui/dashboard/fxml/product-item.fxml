@@ -13,7 +13,7 @@
       xmlns:fx="http://javafx.com/fxml"
       fx:controller="ac.csg.in2033.ipos.pu.gui.dashboard.ProductItemSceneController"
       spacing="10" style="-fx-padding: 10; -fx-border-color: gray; -fx-border-radius: 5; -fx-border-width: 2;"
-      alignment="CENTER" prefWidth="200" prefHeight="200">
+      alignment="CENTER" prefWidth="250" prefHeight="250">
 
     <StackPane fx:id="imageStack" prefHeight="120" prefWidth="150">
         <!-- IMAGE -->
@@ -31,5 +31,6 @@
     <VBox spacing="5" alignment="CENTER" prefWidth="150">
         <Text fx:id="productName" style="-fx-font-size: 14px; -fx-font-weight: bold;" text="Name" />
         <Text fx:id="productPrice" style="-fx-font-size: 12px; -fx-text-fill: green;" text="£0.00" />
+        <Text fx:id="discountPrice" style="-fx-font-size: 12px; -fx-text-fill: red;" text="" visible="false" />
     </VBox>
 </VBox>

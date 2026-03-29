@@ -11,14 +11,14 @@ class PromotionServiceImplTest {
 
     private PromotionManager manager;
     private PromotionServiceImpl service;
-    private Promotions promo;
+    private Promotion promo;
 
     @BeforeEach
     void setUp() {
         manager = new PromotionManager();
         service = new PromotionServiceImpl(manager);
 
-        promo = new Promotions(
+        promo = new Promotion(
                 "TestPromo",
                 LocalDateTime.now().minusDays(1),
                 LocalDateTime.now().plusDays(1)

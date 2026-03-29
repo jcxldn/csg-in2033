@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml/" fx:controller="ac.csg.in2033.ipos.pu.sales.AppViewController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+    <Label fx:id="javafxVersionText" />
+    <Label fx:id="javaVersionText" />
+    <Button text="JavaFX Version" onAction="#onJavafxButtonClick" />
+    <Button text="Java Version" onAction="#onJavaButtonClick" />
+</VBox>

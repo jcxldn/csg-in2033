@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.collections.FXCollections?>
+<?import java.lang.String?>
+
+<VBox alignment="CENTER" prefHeight="500" prefWidth="400"
+      xmlns="http://javafx.com/javafx/17.0.12"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="ac.csg.in2033.ipos.pu.gui.login.C_RegisterSceneController">
+
+    <padding>
+        <Insets top="20" bottom="20" />
+    </padding>
+
+    <HBox alignment="CENTER">
+        <padding>
+            <Insets bottom="20" />
+        </padding>
+        <Label fx:id="desc" text="Register" prefHeight="50" />
+    </HBox>
+
+
+    <GridPane alignment="CENTER" hgap="50" prefHeight="300" prefWidth="300" vgap="10">
+
+        <padding>
+            <Insets bottom="20" />
+        </padding>
+
+        <children>
+            <Label text="Email:" />
+            <TextField fx:id="email" GridPane.rowIndex="1" />
+
+            <Label text="Contact Details:" GridPane.rowIndex="2" />
+            <TextField fx:id="contact" GridPane.rowIndex="3" />
+
+            <Label text="Credit Limit:" GridPane.rowIndex="4" />
+            <TextField fx:id="creditLimit" GridPane.rowIndex="5" />
+
+            <Label text="Discount Plan:" GridPane.rowIndex="6" />
+            <ComboBox fx:id="discountPlan" GridPane.rowIndex="7" promptText="Select Plan">
+                <items>
+                    <FXCollections fx:factory="observableArrayList">
+                        <String fx:value="Fixed"/>
+                        <String fx:value="Flexible"/>
+                    </FXCollections>
+                </items>
+            </ComboBox>
+
+            <Label text="Proof of Business:" GridPane.rowIndex="10" />
+            <Button fx:id="fileSelectionButton" GridPane.rowIndex="11" mnemonicParsing="false" onAction="#OnChooseFileButtonClick" text="Choose File" />
+            <Label fx:id="fileSelectionLabel" GridPane.rowIndex="12" text="No file selected." />
+        </children>
+    </GridPane>
+
+    <HBox alignment="CENTER">
+        <Button fx:id="registerButton" alignment="CENTER" mnemonicParsing="false" onAction="#OnRegisterButtonClick" text="Submit" />
+        <Region HBox.hgrow="SOMETIMES" maxWidth="10" />
+        <Button fx:id="cancelButton" alignment="CENTER" mnemonicParsing="false" onAction="#OnCancelButtonClick" text="Cancel" />
+    </HBox>
+
+</VBox>
