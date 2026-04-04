@@ -1,0 +1,67 @@
+01:41:10.110 [Thread.main] a.c.i.i.p.p.Database           ERROR Database connection failed:
+java.sql.SQLException: No suitable driver found for jdbc:sqlite:promotions.db
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:708)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:253)
+	at ac.csg.in2033.ipos.pu.prm.Database.connect(Database.java:16)
+	at ac.csg.in2033.ipos.pu.prm.PromotionDatabase.createTable(PromotionDatabase.java:26)
+	at ac.csg.in2033.ipos.pu.prm.TestPromotions.main(TestPromotions.java:6)
+01:41:10.113 [Thread.main] a.c.i.i.p.p.PromotionDatabase  ERROR Connection is NULL
+01:41:10.114 [Thread.main] a.c.i.i.p.p.Database           ERROR Database connection failed:
+java.sql.SQLException: No suitable driver found for jdbc:sqlite:promotions.db
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:708)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:253)
+	at ac.csg.in2033.ipos.pu.prm.Database.connect(Database.java:16)
+	at ac.csg.in2033.ipos.pu.prm.PromotionDatabase.insertPromotion(PromotionDatabase.java:46)
+	at ac.csg.in2033.ipos.pu.prm.TestPromotions.main(TestPromotions.java:9)
+01:41:10.114 [Thread.main] a.c.i.i.p.p.PromotionDatabase  ERROR Failed to insert promotion:
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String)" because "conn" is null
+	at ac.csg.in2033.ipos.pu.prm.PromotionDatabase.insertPromotion(PromotionDatabase.java:47)
+	at ac.csg.in2033.ipos.pu.prm.TestPromotions.main(TestPromotions.java:9)
+01:41:10.114 [Thread.main] a.c.i.i.p.p.Database           ERROR Database connection failed:
+java.sql.SQLException: No suitable driver found for jdbc:sqlite:promotions.db
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:708)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:253)
+	at ac.csg.in2033.ipos.pu.prm.Database.connect(Database.java:16)
+	at ac.csg.in2033.ipos.pu.prm.PromotionDatabase.insertPromotion(PromotionDatabase.java:46)
+	at ac.csg.in2033.ipos.pu.prm.TestPromotions.main(TestPromotions.java:10)
+01:41:10.114 [Thread.main] a.c.i.i.p.p.PromotionDatabase  ERROR Failed to insert promotion:
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String)" because "conn" is null
+	at ac.csg.in2033.ipos.pu.prm.PromotionDatabase.insertPromotion(PromotionDatabase.java:47)
+	at ac.csg.in2033.ipos.pu.prm.TestPromotions.main(TestPromotions.java:10)
+01:41:10.115 [Thread.main] a.c.i.i.p.p.Database           ERROR Database connection failed:
+java.sql.SQLException: No suitable driver found for jdbc:sqlite:promotions.db
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:708)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:253)
+	at ac.csg.in2033.ipos.pu.prm.Database.connect(Database.java:16)
+	at ac.csg.in2033.ipos.pu.prm.PromotionDatabase.getPromotions(PromotionDatabase.java:79)
+	at ac.csg.in2033.ipos.pu.prm.TestPromotions.main(TestPromotions.java:14)
+01:41:10.115 [Thread.main] a.c.i.i.p.p.PromotionDatabase  ERROR Failed to get promotions:
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.createStatement()" because "conn" is null
+	at ac.csg.in2033.ipos.pu.prm.PromotionDatabase.getPromotions(PromotionDatabase.java:80)
+	at ac.csg.in2033.ipos.pu.prm.TestPromotions.main(TestPromotions.java:14)
+01:41:10.115 [Thread.main] a.c.i.i.p.p.Database           ERROR Database connection failed:
+java.sql.SQLException: No suitable driver found for jdbc:sqlite:promotions.db
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:708)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:253)
+	at ac.csg.in2033.ipos.pu.prm.Database.connect(Database.java:16)
+	at ac.csg.in2033.ipos.pu.prm.PromotionDatabase.deletePromotion(PromotionDatabase.java:63)
+	at ac.csg.in2033.ipos.pu.prm.TestPromotions.main(TestPromotions.java:19)
+01:41:10.116 [Thread.main] a.c.i.i.p.p.PromotionDatabase  ERROR Failed to delete promotion:
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String)" because "conn" is null
+	at ac.csg.in2033.ipos.pu.prm.PromotionDatabase.deletePromotion(PromotionDatabase.java:64)
+	at ac.csg.in2033.ipos.pu.prm.TestPromotions.main(TestPromotions.java:19)
+01:41:10.116 [Thread.main] a.c.i.i.p.p.Database           ERROR Database connection failed:
+java.sql.SQLException: No suitable driver found for jdbc:sqlite:promotions.db
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:708)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:253)
+	at ac.csg.in2033.ipos.pu.prm.Database.connect(Database.java:16)
+	at ac.csg.in2033.ipos.pu.prm.PromotionDatabase.getPromotions(PromotionDatabase.java:79)
+	at ac.csg.in2033.ipos.pu.prm.TestPromotions.main(TestPromotions.java:23)
+01:41:10.116 [Thread.main] a.c.i.i.p.p.PromotionDatabase  ERROR Failed to get promotions:
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.createStatement()" because "conn" is null
+	at ac.csg.in2033.ipos.pu.prm.PromotionDatabase.getPromotions(PromotionDatabase.java:80)
+	at ac.csg.in2033.ipos.pu.prm.TestPromotions.main(TestPromotions.java:23)
+01:48:12.474 [Thread.main] a.c.i.i.p.p.PromotionDatabase  DEBUG Promotions table created
+01:48:12.478 [Thread.main] a.c.i.i.p.p.PromotionDatabase  DEBUG Promotion added: Eid Sale
+01:48:12.479 [Thread.main] a.c.i.i.p.p.PromotionDatabase  DEBUG Promotion added: Ramadan Special
+01:48:12.485 [Thread.main] a.c.i.i.p.p.PromotionDatabase  DEBUG Promotion deleted: ID=1
