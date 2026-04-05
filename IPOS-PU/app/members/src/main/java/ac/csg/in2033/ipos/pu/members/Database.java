@@ -32,19 +32,6 @@ public class Database {
             // Create user database file
             File dbFile = new File(dir, DB_NAME);
 
-            // FIXME: Temporary debugging printing
-            System.out.println("DB path: " + dbFile.getAbsolutePath());
-            System.out.println("DB exists: " + dbFile.exists());
-
-            // If database doesn't exist and test db does exist
-            // Copy test data to real database
-            if (!dbFile.exists()) {
-                InputStream is = Database.class.getResourceAsStream("/sql/" + DB_NAME);
-                if (is != null) {
-                    Files.copy(is, dbFile.toPath());
-                }
-            }
-
             // Return connection to database
             String url = "jdbc:sqlite:" + dbFile.getAbsolutePath();
             return DriverManager.getConnection(url);
